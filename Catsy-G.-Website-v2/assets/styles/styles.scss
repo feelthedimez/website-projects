@@ -1,0 +1,63 @@
+body {
+  background-color: #eeeeee;
+}
+
+a {
+  color: #b912b1;
+}
+
+a:hover {
+  color: #b912b1;
+  text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: #b912b1;
+  color: #ffffff;
+  border-color: #b912b1;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #6c057a;
+  border-color: #6c057a;
+}
+
+.btn:visited {
+  background-color: #583e59;
+  border-color: #583e59;
+} 
+
+@import "header";
+@import "nav-menu";
+@import "hero";
+@import "about";
+@import "apply";
+@import "portfolio";
+@import "contact";

@@ -1,0 +1,153 @@
+#contact {
+  padding: 0 0 0 0;
+}
+
+#contact .jumbotron {
+    background-color: black;
+    border-radius: 0;
+}
+
+#contact h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 62px;
+    color: #ffffff;
+  }
+
+footer #contact {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer #contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 68px;
+    color: #ffffff;
+    letter-spacing: 9px;
+}
+
+footer #contact h1 .dot {
+    color: #b912b1;
+  }
+
+footer #contact p {
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+footer i:hover {
+      color: #6c057a;
+  }
+  
+footer i {
+      font-size: 2rem;
+      padding: 4px;
+      color: white;
+  } 
+  
+small a {
+    font-size: 14px;
+  }
+
+small {
+    color: white;
+  }
+
+small i {
+    font-size: 1rem;
+    color: rgb(112, 112, 200);
+  }
+  
+small a:hover{
+    color: #6c057a;
+  }
+
+// Tablet Media Queries
+@media (max-width: 768px) {
+    #contact h2 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 50px;
+      color: #ffffff;
+      padding: 15px 0 15px 0;
+    }
+  
+  footer #contact h1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 40px;
+      color: #ffffff;
+      letter-spacing: 6px;
+  }
+  
+  footer #contact h1 .dot {
+      color: #b912b1;
+    }
+  
+  footer #contact p {
+      font-size: 14px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    footer #contact {
+      padding-bottom: 0;
+      margin-bottom: 0;
+   }
+  }
+
+// Mobile Phone Media Queries
+@media (max-width: 576px) {
+  #contact h2 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 50px;
+      color: #ffffff;
+      padding: 20px 0 20px 0;
+    }
+  
+  footer #contact h1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 50px;
+      color: #ffffff;
+      letter-spacing: 6px;
+  }
+  
+  footer #contact h1 .dot {
+      color: #b912b1;
+    }
+  
+  footer #contact p {
+      font-size: 16px;
+      letter-spacing: 5px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    footer #contact {
+      padding-bottom: 0;
+      margin-bottom: 0;
+  }
+
+  .btn {
+    font-size: 23px;
+    text-transform: uppercase;
+    background-color: #b912b1;
+    color: #ffffff;
+    border-color: #b912b1;
+    font-weight: 700;
+  }
+  
+  .btn:visited {
+    background-color: #583e59;
+    border-color: #583e59;
+  }
+}
+
+  
+  
